@@ -1,9 +1,18 @@
 <template>
-  <h1> app 组件</h1>
+<lunbo>
 
-  <canvasSelf>
+</lunbo>
 
-  </canvasSelf>
+<!--  <echartsoption>-->
+
+<!--  </echartsoption>-->
+
+
+<!--  <h1> app 组件</h1>-->
+
+<!--  <canvasSelf>-->
+
+<!--  </canvasSelf>-->
 
 <!--  <earch>-->
 
@@ -27,6 +36,8 @@ import Ctable from './components/table.vue'
 import earch from './components/earch-echarts'
 import earch01 from './components/earch01'
 import canvasSelf from './components/canvas'
+import echartsoption from './components/echartsoption'
+import lunbo from './components/轮播'
 
 export default {
   name: 'App',
@@ -35,6 +46,8 @@ export default {
     earch,
     earch01,
     canvasSelf,
+    echartsoption,
+    lunbo,
   },
   data() {
     return {}
